@@ -1,25 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+// Homework 1 (componentDidMount)
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+// import React, { Component } from 'react';
+//
+// class Greeting extends Component {
+//     componentDidMount() {
+//         console.log('Hello, world!');
+//     }
+//
+//     render() {
+//         return null;
+//     }
+// }
+//
+// export default Greeting;
 
-export default App;
+
+
+// Homework 2 (componentDidCatch)
+
+// import React, { Component } from 'react';
+//
+// class ErrorBoundary extends Component {
+//     state = {
+//         hasError: false,
+//     };
+//
+//     componentDidCatch(error, info) {
+//         this.setState({ hasError: true });
+//         console.error(error, info);
+//     }
+//
+//     render() {
+//         if (this.state.hasError) {
+//             return <div>Что-то пошло не так...</div>;
+//         }
+//         return this.props.children;
+//     }
+// }
+//
+// export default ErrorBoundary;
